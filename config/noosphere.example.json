@@ -1,0 +1,31 @@
+{
+  "_status": "Proposition non consommee par un runtime ; qualification locale obligatoire.",
+  "schemaVersion": "0.1",
+  "mode": "manual",
+  "maxConcurrentWorkers": 2,
+  "autoMerge": false,
+  "publicIssueTriggers": false,
+  "allowPaidApiFallback": false,
+  "quotaPolicy": "pause-and-request-operator",
+  "planner": {
+    "location": "external",
+    "role": "architect",
+    "requiresApproval": true
+  },
+  "adapters": {
+    "codex": {
+      "enabled": false,
+      "model": null
+    },
+    "cursor": {
+      "enabled": false,
+      "model": null
+    },
+    "pi": {
+      "enabled": false,
+      "provider": null,
+      "model": null
+    }
+  },
+  "projects": {}
+}

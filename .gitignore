@@ -1,0 +1,34 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+**/auth.json
+**/credentials.json
+config/*.local.json
+config/local/
+
+# États privés des outils : ne pas ignorer toutes les règles/skills de projet
+.noosphere/
+.codex/auth.json
+.pi/agent/
+.cursor/auth.json
+
+# Workspaces, journaux et artefacts privés
+workspaces/
+worktrees/
+runs/
+logs/
+*.log
+*.jsonl
+
+# Dépendances et builds
+node_modules/
+dist/
+coverage/
+.venv/
+__pycache__/
+.DS_Store
