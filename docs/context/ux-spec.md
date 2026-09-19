@@ -36,19 +36,19 @@ flowchart LR
 
 ## Tokens de conception
 
-Le bloc `:root` est identique dans les quatre écrans `design/screen-*.html`.
+Le bloc `:root` est identique dans les quatre écrans `design/screen-*.html`. La direction visuelle est une **grille éditoriale Swiss moderne** : surfaces claires, lignes fines, beaucoup d’air et un seul accent acide réservé aux actions. Elle évite les gradients, le glassmorphism et l’empilement de cartes.
 
 | Groupe | Choix | Usage |
 |---|---|---|
-| Surfaces | `surface-0` à `surface-3`, bordure `#304665` | profondeur par fonds et bordures, pas par ombres décoratives |
-| Texte | primaire `#f4f7fb`, secondaire `#b8c5d8`, muted `#8091aa` | trois niveaux maximum |
-| Accent | `#b7ee52` + premier plan sombre | actions primaires et sélection active uniquement |
-| Sévérité | succès, avertissement, danger avec premier plan dédié | même vocabulaire dans badges, bannières et états |
-| Typographie | système, mono pour SHA/commandes, 12/16/20/28 px | lecture mobile et preuves techniques |
-| Espacement | 4, 8, 12, 16, 24, 32, 48 px | échelle unique |
-| Rayon | 6, 10, pill 999 px | boutons/champs, panneaux, badges |
+| Surfaces | `--bg: #f4f6f1`, `--surface: #fff`, `--surface-subtle: #eef1ec`, ligne `#d8dfd8` | hiérarchie par espaces et bordures, ombre seulement pour une priorité |
+| Texte | encre `#111613`, secondaire `#3f4942`, muted `#68736b` | titres francs, aide lisible, métadonnées discrètes |
+| Accent | `#b7ef51` + premier plan `#13200c` | actions primaires, sélection active, signal de disponibilité |
+| Sévérité | succès `#287a57`, avertissement `#916d15`, danger `#aa3f3b` avec fonds dédiés | même vocabulaire dans badges, bannières et états |
+| Typographie | système sans-serif, mono pour SHA/commandes, 11/13/16/21/30–54 px | densité maîtrisée et lecture mobile |
+| Espacement | 4, 8, 12, 16, 24, 32, 48, 72 px | rythme unique et généreux |
+| Rayon | 8, 14, pill 999 px | champs/actions, panneaux, statuts |
 
-Le contraste du texte primaire sur `surface-0` est supérieur à 4,5:1 ; une passe automatisée WCAG reste à faire pendant l’implémentation.
+Les contrastes des textes courants sur les surfaces claires visent WCAG AA. Les boutons et liens gardent un focus visible ; les animations sont désactivées avec `prefers-reduced-motion`.
 
 ## Revue à faire avant le code
 
