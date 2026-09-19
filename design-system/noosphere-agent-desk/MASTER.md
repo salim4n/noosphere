@@ -8,16 +8,16 @@
 
 ## Intention
 
-Agent Desk doit donner une impression de calme et de maîtrise : l’opérateur voit une décision, sa fraîcheur et sa prochaine action sans traverser un mur de panneaux. La grille est stricte, les surfaces sont claires, les lignes sont fines et l’accent lime sert uniquement à guider l’action.
+Agent Desk doit donner une impression de calme et de maîtrise : l’opérateur voit une décision, sa fraîcheur et sa prochaine action sans traverser un mur de panneaux. La grille est stricte, les surfaces ivoire froides, les lignes sont fines et le cobalt sert uniquement à guider l’action.
 
 ## Tokens
 
 Le bloc `:root` doit rester identique dans les quatre écrans `design/screen-*.html`.
 
-- **Fond** `#f4f6f1`, surface `#ffffff`, surface secondaire `#eef1ec`, bordure `#d8dfd8`.
-- **Encre** `#111613`, texte secondaire `#3f4942`, métadonnées `#68736b`.
-- **Accent** `#b7ef51` avec premier plan `#13200c`.
-- **Sémantique** : succès `#287a57`, avertissement `#916d15`, danger `#aa3f3b` avec fonds dédiés.
+- **Fond** `#f6f7f9`, surface `#ffffff`, surface secondaire `#eef1f5`, bordure `#dbe1e8`.
+- **Encre** `#10151c`, texte secondaire `#46515e`, métadonnées `#75808d`.
+- **Accent** `#365cff` avec premier plan blanc.
+- **Sémantique** : succès `#087a61`, avertissement `#9a6500`, danger `#c43f51` avec fonds dédiés.
 - **Typographie** : pile système sans-serif ; mono pour SHA, chemins et commandes.
 - **Rythme** : 4, 8, 12, 16, 24, 32, 48, 72 px ; rayons 8, 14 et pill.
 

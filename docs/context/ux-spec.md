@@ -40,10 +40,10 @@ Le bloc `:root` est identique dans les quatre écrans `design/screen-*.html`. La
 
 | Groupe | Choix | Usage |
 |---|---|---|
-| Surfaces | `--bg: #f4f6f1`, `--surface: #fff`, `--surface-subtle: #eef1ec`, ligne `#d8dfd8` | hiérarchie par espaces et bordures, ombre seulement pour une priorité |
-| Texte | encre `#111613`, secondaire `#3f4942`, muted `#68736b` | titres francs, aide lisible, métadonnées discrètes |
-| Accent | `#b7ef51` + premier plan `#13200c` | actions primaires, sélection active, signal de disponibilité |
-| Sévérité | succès `#287a57`, avertissement `#916d15`, danger `#aa3f3b` avec fonds dédiés | même vocabulaire dans badges, bannières et états |
+| Surfaces | `--bg: #f6f7f9`, `--surface: #fff`, `--surface-subtle: #eef1f5`, ligne `#dbe1e8` | hiérarchie par espaces et bordures, ombre seulement pour une priorité |
+| Texte | encre `#10151c`, secondaire `#46515e`, muted `#75808d` | titres francs, aide lisible, métadonnées discrètes |
+| Accent | `#365cff` + premier plan blanc | actions primaires, sélection active, signal de disponibilité |
+| Sévérité | succès `#087a61`, avertissement `#9a6500`, danger `#c43f51` avec fonds dédiés | même vocabulaire dans badges, bannières et états |
 | Typographie | système sans-serif, mono pour SHA/commandes, 11/13/16/21/30–54 px | densité maîtrisée et lecture mobile |
 | Espacement | 4, 8, 12, 16, 24, 32, 48, 72 px | rythme unique et généreux |
 | Rayon | 8, 14, pill 999 px | champs/actions, panneaux, statuts |
