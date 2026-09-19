@@ -26,3 +26,17 @@ bash scripts/doctor.sh --help
 L'exemple de ticket doit respecter `schemas/task.schema.json` (JSON Schema 2020-12). Le validateur TypeScript et ses tests restent à implémenter dans l'issue #7. Un schéma valide ne prouve ni l'autorisation ni la sécurité d'une tâche.
 
 Dans chaque livraison : fichiers changés, validations réellement exécutées, résultat et limites non testées. Ne jamais déclarer un test réussi sans l'avoir exécuté. Ne pas déclencher d'appel modèle payant pour les tests unitaires.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues is the tracker for `salim4n/noosphere`; external PRs are not a triage request surface. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Use the canonical labels `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human` and `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This is a single-context repository; read `docs/context/current-state.md` and the applicable ADRs before changing the architecture. See `docs/agents/domain.md`.

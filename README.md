@@ -39,6 +39,10 @@ Ce script ne contacte aucun fournisseur et ne vérifie ni les comptes ni leurs q
 
 Le [backlog](docs/roadmap.md) commence par la qualification du VPS et le contrat de ticket, réalisables en parallèle. L'[epic V0](https://github.com/salim4n/noosphere/issues/1) décrit les critères de sortie.
 
+## Reprise Agent Desk
+
+Le blueprint issu du reverse-architecture pass est dans [`docs/context/architecture-spec.md`](docs/context/architecture-spec.md). Il est accompagné de l’état réel du dépôt, des décisions, du plan V0 et de maquettes HTML statiques dans [`design/`](design/index.html). Ces artefacts préparent l’implémentation de l’issue [#11](https://github.com/salim4n/noosphere/issues/11) ; ils ne signalent pas qu’un runtime est déjà installé.
+
 ## Contenu
 
 - `AGENTS.md` : consignes pour les contributeurs humains et agents.
