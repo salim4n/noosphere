@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "0.1",
+  "id": "NOO-EXAMPLE-001",
+  "project": "sandbox",
+  "baseRef": "main",
+  "objective": "Exemple uniquement : ajouter une fonction sum(a, b) et ses tests dans une fixture jetable.",
+  "role": "executor_fast",
+  "contextPaths": [
+    "AGENTS.md"
+  ],
+  "allowedPaths": [
+    "src/sum.ts",
+    "tests/sum.test.ts"
+  ],
+  "deniedPaths": [
+    "package.json",
+    "bun.lock",
+    ".github"
+  ],
+  "dependencies": [],
+  "acceptance": [
+    "La fonction additionne deux nombres finis.",
+    "Les tests couvrent zero, valeurs positives et negatives.",
+    "Aucun fichier hors perimetre n’est modifie."
+  ],
+  "checks": [
+    "unit",
+    "typecheck"
+  ],
+  "limits": {
+    "timeoutSeconds": 1200,
+    "maxAttempts": 1
+  },
+  "delivery": {
+    "independentReview": true,
+    "humanApproval": true,
+    "autoMerge": false
+  }
+}
